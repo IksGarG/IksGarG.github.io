@@ -1,0 +1,21 @@
+.gitH {
+    color: aliceblue;
+}
+.instA {
+    color: aliceblue;
+}
+.twiT {
+    color: aliceblue;
+}
+.gitH:hover {
+    color: #6610f2;
+    transition: 0.2s;
+}
+.instA:hover {
+    color: #ffae66;
+    transition: 0.2s;
+}
+.twiT:hover {
+    color: #1da1f2;
+    transition: 0.2s;  
+}

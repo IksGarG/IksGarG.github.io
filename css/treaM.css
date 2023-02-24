@@ -1,0 +1,45 @@
+.gitH {
+    color: aliceblue;
+}
+.instA {
+    color: aliceblue;
+}
+.twiT {
+    color: aliceblue;
+}
+.gitH:hover {
+    color: #6610f2;
+    transition: 0.2s;
+}
+.instA:hover {
+    color: #ffae66;
+    transition: 0.2s;
+}
+.twiT:hover {
+    color: #1da1f2;
+    transition: 0.2s;  
+}
+.card {
+    width: 18rem;
+}
+.card img{
+    height: 10rem;
+}
+@media (max-width: 768px) { 
+    .card {
+        width: 10rem;
+        height: 4rem;
+    }
+    .card h5 {
+        font-size: 15px;
+    }
+    .card p {
+        font-size: 15px;
+    }
+    .card img {
+        height: 5rem;
+    }
+    .card a {
+        font-size: 10px;
+    }
+}
