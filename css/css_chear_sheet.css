@@ -1,0 +1,134 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;
+    color: aqua;
+}
+.border {
+    border: 2px dotted darkviolet;
+}
+.border2 {
+    border: 5px solid blue;
+}
+.border3 {
+    border-right: 5px solid red;
+}
+.border4 {
+    border-left: 5px double yellow;
+}
+.border5 {
+    border-top: 5px solid gold;
+}
+.border6 {
+    border-bottom: 5px solid green;
+}
+.border7 {
+    border: 5px solid orange;
+    border-radius: 10px;
+}
+.background {
+    height: 20rem;
+    background-image: url("/images/back.png");
+    background-size: cover;
+    background-position: center;
+    color: red;
+}
+.background1 {
+    background-color: blue;
+}
+.font1 {
+    font-family: "Bradley Hand", cursive;
+}
+.font2 {
+    font-size: 40px;
+}
+.font3 {
+    font-style: oblique;
+}
+.font4 {
+    font-weight: 900;
+}
+.font5 {
+    font-variant: small-caps;
+}
+.font6 {
+    text-decoration: underline;
+}
+.sizing1 {
+    width: 50%;
+}
+.sizing2 {
+    height: 100px;
+}
+.list1 {
+    list-style: square;
+}
+.list2 {
+    list-style: circle inside;
+}
+.margin1 {
+    margin: 10%;
+}
+.margin2 {
+    padding: 5%;
+}
+.margin3 {
+    margin: 10%;
+    padding: 5%;
+}
+.margin4 {
+    padding: 15%;
+    border: 5px solid red;
+}
+.margin5 {
+    margin: 10%;
+    border: 5px solid blue;
+}
+.position1 {
+    position: relative;
+    top: -10px;
+}
+.position2 {
+    position: relative;
+    left: 50px;
+}
+.display1 {
+    display: inline;
+}
+.display2 {
+    display: block;
+}
+.display3 {
+    display: inline-block;
+}
+.display4 {
+    display: none;
+}
+.overflow1 {
+    overflow: hidden;
+}
+.overflow2 {
+    overflow: scroll;
+}
+.filter1 {
+    filter: grayscale(100%);
+}
+.filter2 {
+    filter: blur(5px);
+}
+.filter3 {
+    filter: brightness(50%);
+}
+.filter4 {
+    filter: contrast(200%);
+}
+.filter5 {
+    filter: drop-shadow(16px 16px 20px blue);
+}
