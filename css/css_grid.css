@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: #6610f2;
+    padding: 5px;
+    height: 100vh;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 45px;
+    margin: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+.grid-item:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: #d63384;
+    padding: 5px;
+    height: 100vh;
+}
+#gridi-1 {
+    grid-area: 1 / 1 / 2 / 4;
+}
+#gridi-2 {
+    grid-area: 2 / 1 / 4 / 2;
+}
+#gridi-3 {
+    grid-area: 2 / 2 / 3 / 4;
+}
+#gridi-4 {
+    grid-area: 3 / 2 / 4 / 3;
+}
+#gridi-5 {
+    grid-area: 3 / 3 / 4 / 4;   
+}
+.grid-container3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background-color: #fd7e14;
+    padding: 5px;
+    height: 100vh;
+}
+#gridi1-1 {
+    grid-area: 1 / 1 / 3 / 3;
+}
+#gridi1-2 {
+    grid-area: 1 / 3 / 3 / 5;
+}
+#gridi1-3 {
+    grid-area: 3 / 1 / 5 / 2;
+}
+#gridi1-4 {
+    grid-area: 3 / 2 / 5 / 5;
+}
+#gridi1-5 {
+    grid-area: 5 / 1 / 6 / 5;
+}
+.grid-container4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: #20c997;
+    padding: 5px;
+    height: 100vh;
+}
+#gridi2-1 {
+    grid-area: 1 / 1 / 2 / 3;
+}
+#gridi2-2 {
+    grid-area: 1 / 3 / 2 / 5;
+}
+#gridi2-3 {
+    grid-area: 2 / 1 / 4 / 3;
+}
+#gridi2-4 {
+    grid-area: 2 / 3 / 4 / 5;
+}
+.grid-container5 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    border-radius: 45px;
+    background-color: #ffc107;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    height: 100%;
+}
+#gridi3-1 {
+    grid-area: 1 / 1 / 3 / 5;
+}
+#gridi3-2 {
+    grid-area: 3 / 1 / 5 / 3;
+}
+#gridi3-3 {
+    grid-area: 3 / 3 / 5 / 5;
+}
