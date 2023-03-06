@@ -1,0 +1,96 @@
+html body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: linear-gradient(0deg, rgba(0,0,0,.5) 0%, rgba(0,0,0,.5) 100%), url("../images/backg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.cover {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;  
+}
+.navbar { 
+    grid-area: 1 / 1 / 2 / 13; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+.logo {
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.menu {
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.menu a {
+    margin-left: 25px;
+}
+.content { 
+    grid-area: 2 / 1 / 7 / 13; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.middle { 
+    grid-area: 7 / 1 / 8 / 13;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+.middle a {
+    margin-right: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.about { 
+    grid-area: 8 / 1 / 12 / 13; 
+    display: flex;
+}
+.about-1 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.about-2 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.about-3 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.footer { 
+    grid-area: 12 / 1 / 13 / 13; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
