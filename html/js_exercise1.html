@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript Excersices</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body class="p-0 m-0" style="background-color: #555555 ;">
+    <div class="d-flex flex-column justify-content-center h-100 w-100 text-center mb-1">
+        <h1 class= "" style="color: white;">JavaScript Ejercicios #1</h1>
+        <div class="mt-auto mb-auto d-flex justify-content-center align-items-center flex-wrap gap-2 p-2">
+            <div class="card " style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Ejercicio 1</h5>
+                  <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Instrucción
+                  </a>
+                  <p class="card-text">
+                    <p class="collapse" id="collapseExample1">Escribe una función que encuentre el primer carácter de un cadena de texto que no se repite.</p>
+                  </p>
+                  <input type="text" class="form-control" id="str1" placeholder="Agrega cadena de texto">
+                  <button type="submit" class="btn btn-info btn-sm mt-2" onclick="findFirstNonRepeatedChar2()">Enviar</button>
+                  <div class="alert alert-primary mt-2" role="alert" id="result1"></div>
+                </div>
+              </div>
+              <div class="card " style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Ejercicio 2</h5>
+                  <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Instrucción
+                  </a>
+                  <p class="card-text">
+                    <p class="collapse" id="collapseExample2">Escribe una función que implemente el algoritmo 'bubble-sort' para ordenar una lista de números.</p>
+                  </p>
+                  <input type="text" class="form-control" id="str2" placeholder="Agregar lista de nums">
+                  <button type="submit" class="btn btn-info btn-sm mt-2" onclick="bubbleSort2()">Enviar</button>
+                  <div class="alert alert-primary mt-2" role="alert" id="result2"></div>
+                </div>
+            </div>
+            <div class="card " style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Ejercicio 3</h5>
+                  <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Instrucción
+                  </a>
+                  <p class="card-text">
+                    <p class="collapse" id="collapseExample3">Escribe dos funciones: la primera que invierta un arreglo de números y regrese un nuevo arreglo con el resultado; la segunda que modifique el mismo arreglo que se pasa como argumento. No se permite usar la función integrada 'reverse'.</p>
+                  </p>
+                  <input type="text" class="form-control" id="str3" placeholder="Arreglo de nums">
+                  <button type="submit" class="btn btn-info btn-sm mt-2" onclick="reverseArray2()">Al reverso</button>
+                  <button type="submit" class="btn btn-info btn-sm mt-2" onclick="reverseArrayInPlace2()">Al reverso en su lugar</button>
+                  <div class="alert alert-primary mt-2" role="alert" id="result3"></div>
+                </div>
+            </div>
+            <div class="card " style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Ejercicio 4</h5>
+                  <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Instrucción
+                  </a>
+                  <p class="card-text">
+                    <p class="collapse" id="collapseExample4">Escribe una función que reciba una cadena de texto y regrese una nueva con la primer letra de cada palabra en mayúscula.</p>
+                  </p>
+                  <input type="text" class="form-control" id="str4" placeholder="Cadena entre espacios">
+                  <button type="submit" class="btn btn-info btn-sm mt-2" onclick="capitalize2()">Enviar</button>
+                  <div class="alert alert-primary mt-2" role="alert" id="result4"></div>
+                </div>
+            </div>
+            <div class="card " style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Ejercicio 5</h5>
+                <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Instrucción
+                </a>
+                <p class="card-text">
+                  <p class="collapse" id="collapseExample5">Escribe una función que calcule el máximo común divisor de dos números.</p>
+                </p>
+                <div class="row">
+                  <div class="col"><input type="text" class="form-control" id="str5" placeholder="Numero 1"></div>
+                  <div class="col"><input type="text" class="form-control" id="str6" placeholder="Numero 2"></div>
+                </div>
+                <button type="submit" class="btn btn-info btn-sm mt-2" onclick="gcd2()">Enviar</button>
+                <div class="alert alert-primary mt-2" role="alert" id="result5"></div>
+              </div>
+            </div>
+            <div class="card " style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Ejercicio 6</h5>
+                <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Instrucción
+                </a>
+                <p class="card-text">
+                  <p class="collapse" id="collapseExample6">Crea una función que cambie una cadena de texto a 'Hacker Speak'.</p>
+                </p>
+                <input type="text" class="form-control" id="str7" placeholder="Agregar cadena de texto">
+                <button type="submit" class="btn btn-info btn-sm mt-2" onclick="hackerSpeak2()">Enviar</button>
+                <div class="alert alert-primary mt-2" role="alert" id="result6"></div>
+              </div>
+            </div>
+            <div class="card " style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Ejercicio 7</h5>
+                <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Instrucción
+                </a>
+                <p class="card-text">
+                  <p class="collapse" id="collapseExample7">Escribe una función que reciba un número, y regrese una lista con todos sus factores.</p>
+                </p>
+                <input type="text" class="form-control" id="str8" placeholder="Agrega numero">
+                <button type="submit" class="btn btn-info btn-sm mt-2" onclick="factorize2()">Enviar</button>
+                <div class="alert alert-primary mt-2" role="alert" id="result7"></div>
+              </div>
+            </div>
+            <div class="card " style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Ejercicio 8</h5>
+                <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Instrucción
+                </a>
+                <p class="card-text">
+                  <p class="collapse" id="collapseExample8">Escribe una función que quite los elementos duplicados de un arreglo y regrese una lista con los elementos que quedan.</p>
+                </p>
+                <input type="text" class="form-control" id="str9" placeholder="Agregar arreglo de numeros">
+                <button type="submit" class="btn btn-info btn-sm mt-2" onclick="removeDuplicates2()">Enviar</button>
+                <div class="alert alert-primary mt-2" role="alert" id="result8"></div>
+              </div>
+            </div>
+            <div class="card " style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Ejercicio 9</h5>
+                <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Instrucción
+                </a>
+                <p class="card-text">
+                  <p class="collapse" id="collapseExample9">Escribe una función que reciba como parámetro una lista de cadenas de texto, y regrese la longitud de la cadena más corta.</p>
+                </p>
+                <input type="text" class="form-control" id="str10" placeholder="Agregar cadenas de texto">
+                <button type="submit" class="btn btn-info btn-sm mt-2" onclick="shortestString2()">Enviar</button>
+                <div class="alert alert-primary mt-2" role="alert" id="result9"></div>
+              </div>
+            </div>
+            <div class="card " style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Ejercicio 10</h5>
+                <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Instrucción
+                </a>
+                <p class="card-text">
+                  <p class="collapse" id="collapseExample10">Escribe una función que revise si una cadena de texto es un palíndromo o no.</p>
+                </p>
+                <input type="text" class="form-control" id="str11" placeholder="Agregar cadena de texto">
+                <button type="submit" class="btn btn-info btn-sm mt-2" onclick="isPalindrome2()">Enviar</button>
+                <div class="alert alert-primary mt-2" role="alert" id="result10"></div>
+              </div>
+            </div>
+            <div class="card " style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Ejercicio 11</h5>
+                <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample11" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Instrucción
+                </a>
+                <p class="card-text">
+                  <p class="collapse" id="collapseExample11">Escribe una función que tome una lista de cadena de textos y devuelva una nueva lista con todas las cadenas en orden alfabético.</p>
+                </p>
+                <input type="text" class="form-control" id="str12" placeholder="Agregar lista">
+                <button type="submit" class="btn btn-info btn-sm mt-2" onclick="sortStrings2()">Enviar</button>
+                <div class="alert alert-primary mt-2" role="alert" id="result11"></div>
+              </div>
+            </div>
+            <div class="card " style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Ejercicio 12</h5>
+                <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample12" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Instrucción
+                </a>
+                <p class="card-text">
+                  <p class="collapse" id="collapseExample12">Escribe una función que reciba una lista de números y regrese una nueva lista con los números ordenados de menor a mayor.</p>
+                </p>
+                <input type="text" class="form-control" id="str13" placeholder="Agregar lista">
+                <button type="submit" class="btn btn-info btn-sm mt-2" onclick="sortNumbers2()">Enviar</button>
+                <div class="alert alert-primary mt-2" role="alert" id="result12"></div>
+              </div>
+            </div>
+            <div class="card " style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Ejercicio 13</h5>
+                <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample13" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Instrucción
+                </a>
+                <p class="card-text">
+                  <p class="collapse" id="collapseExample13">Escribe una función que reciba una lista de números y regrese una nueva lista con los números ordenados de mayor a menor.</p>
+                </p>
+                <input type="text" class="form-control" id="str14" placeholder="Agregar lista">
+                <button type="submit" class="btn btn-info btn-sm mt-2" onclick="sortNumbers22()">Enviar</button>
+                <div class="alert alert-primary mt-2" role="alert" id="result13"></div>
+              </div>
+            </div>
+            <div class="card " style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Ejercicio 14</h5>
+                <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample14" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Instrucción
+                </a>
+                <p class="card-text">
+                  <p class="collapse" id="collapseExample14"> Escribe una función que tome un número y devuelva verdadero si es una potencia de dos, falso de lo contrario.</p>
+                </p>
+                <input type="text" class="form-control" id="str15" placeholder="Agregar numero">
+                <button type="submit" class="btn btn-info btn-sm mt-2" onclick="isPowerOfTwo2()">Enviar</button>
+                <div class="alert alert-primary mt-2" role="alert" id="result14"></div>
+              </div>
+            </div>
+            <div class="card " style="width: 18rem;">
+              <div class="card-body">
+                <h5 class="card-title">Ejercicio 15</h5>
+                <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample15" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Instrucción
+                </a>
+                <p class="card-text">
+                  <p class="collapse" id="collapseExample15"> Escribe una función que tome un número y devuelva verdadero si es una potencia de dos, falso de lo contrario.</p>
+                </p>
+                <input type="text" class="form-control" id="str16" placeholder="Agregar numero">
+                <button type="submit" class="btn btn-info btn-sm mt-2" onclick="sortDescending2()">Enviar</button>
+                <div class="alert alert-primary mt-2" role="alert" id="result15"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <script src="../js/Ejercicio1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
